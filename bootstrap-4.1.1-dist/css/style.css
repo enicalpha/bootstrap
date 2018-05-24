@@ -1,0 +1,15 @@
+.grid-layout div {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+}
+
+.jumbotron {
+  background-image: url(../img/Penguins.jpg);
+  background-size: cover;
+  background-position: center 10%; /* 左右は中央、上下は上から10%を起点に画像を見せる */
+  background-repeat: no-repeat;
+  height: 50vh; /* 画像の高さを調節 */
+  color: white;
+  text-align: center;
+  border-radius: 0px; /* containerの外に書いているのに画像カドが丸くなるので */
+}
