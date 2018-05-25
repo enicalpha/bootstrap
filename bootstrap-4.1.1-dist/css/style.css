@@ -1,3 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .grid-layout div {
   padding: 5px 10px;
   border: 1px solid lightgray;
@@ -11,5 +23,21 @@
   height: 50vh; /* 画像の高さを調節 */
   color: white;
   text-align: center;
-  border-radius: 0px; /* containerの外に書いているのに画像カドが丸くなるので */
+  margin-bottom: 0;
+}
+
+.head-link-row {
+  background-color: lightgray;
+}
+
+.head-link {
+  display: block;
+  padding: 4px 0;
+  transition: all 0.5s;
+  color: #333333;
+}
+
+.head-link:hover {
+  background-color: gray;
+  color: white;
 }
