@@ -41,3 +41,11 @@ a:hover {
   background-color: gray;
   color: white;
 }
+
+.label-width-control {
+  width: 200px;
+}
+
+.btn {
+  transition: all 0.5s;
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DAY 3</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src=".js/jquery.min.js"></script>
+    <script src=".js/popper.min.js"></script>
+    <script src=".js/bootstrap.min.js"></script>
+    <script src=".js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row head-link-row">
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center px-0 d-inline-block">
+          <a href="index.html" class="head-link">Day1</a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center px-0 d-inline-block">
+          <a href="day2.html" class="head-link">Day2</a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center px-0 d-inline-block">
+          <a href="#" class="head-link">Day4</a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 text-center px-0 d-inline-block">
+          <a href="#" class="head-link">Day5</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Day文言 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Day3 Headline</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- チェックボックスとラジオボックスをインラインに -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>▼checkbox and radio inline</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form action="#" method="post">
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                checkbox control
+              </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                checkbox control
+              </label>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio">
+                radio A
+              </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio">
+                radio B
+              </label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="radio">
+                radio C
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- インプラント・グループ -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>▼input-group</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form action="#" method="post">
+            <div class="form-row my-3">
+              <div class="col input-group align-items-center">
+                <div class="input-group-prepend">
+                  <span class="input-group-text label-width-control">First Name</span>
+                </div>
+                <input type="text" id="fname" class="form-control">
+              </div>
+
+              <div class="col input-group align-items-center">
+                <div class="input-group-prepend">
+                  <span class="input-group-text label-width-control">Last Name</span>
+                </div>
+                <input type="text" id="lname" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col input-group align-items-center">
+                <div class="input-group-prepend">
+                  <span class="input-group-text label-width-control">First Name Kana</span>
+                </div>
+                <input type="text" id="fnamekana" class="form-control">
+              </div>
+
+              <div class="col input-group align-items-center">
+                <div class="input-group-prepend">
+                  <span class="input-group-text label-width-control">Last Name Kana</span>
+                </div>
+                <input type="text" id="lnamekana" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col-sm-6 input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="number" class="form-control text-right" aria-label="number-tip" value="0">
+                <div class="input-group-append">
+                  <span class="input-group-text">.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col form-group">
+                <input type="submit" class="btn btn-block btn-secondary" value="send form">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- カスタムコントロール -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>▼custom control</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form action="#" method="post">
+            <div class="form-row my-3">
+              <div class="col">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" id="cc1" class="custom-control-input">
+                  <label class="custom-control-label" for="cc1">checkbox A</label>
+                </div>
+
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" id="cc2" class="custom-control-input">
+                  <label class="custom-control-label" for="cc2">checkbox B</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col">
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="cr1" name="radio" class="custom-control-input">
+                  <label class="custom-control-label" for="cr1">radio A</label>
+                </div>
+
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="cr2" name="radio" class="custom-control-input">
+                  <label class="custom-control-label" for="cr2">radio B</label>
+                </div>
+
+                <div class="custom-control custom-radio custom-control-inline">
+                  <input type="radio" id="cr3" name="radio" class="custom-control-input">
+                  <label class="custom-control-label" for="cr3">radio C</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <select class="custom-select">
+                    <option selected>Select...</option>
+                    <option value"1">One</option>
+                    <option value"2">Two</option>
+                    <option value"3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                  <select class="custom-select">
+                    <option selected>Select...</option>
+                    <option value"1">One</option>
+                    <option value"2">Two</option>
+                    <option value"3">Three</option>
+                  </select>
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col-sm-6">
+                <label for="customRange1">Range 0-100</label>
+                <input type="range" class="custom-range" id="customRange1">
+              </div>
+
+              <div class="col-sm-6">
+                <label for="customRange2">Range 0-5</label>
+                <input type="range" class="custom-range" min="0" max="5" id="customRange2">
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col-sm-6 custom-file">
+                <input type="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">ファイル選択...</label>
+              </div>
+            </div>
+
+            <div class="form-row my-3">
+              <div class="col form-group">
+                <input type="submit" class="btn btn-block btn-secondary" value="send form">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ボタン -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>▼button</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <form action="#" method="post">
+            <div class="form-row my-3">
+              <div class="col form-group">
+                <input type="submit" class="btn btn-outline-primary" value="outline primary">
+              </div>
+
+              <div class="col form-group">
+                <input type="submit" class="btn btn-outline-info" value="outline info">
+              </div>
+
+              <div class="col form-group">
+                <input type="submit" class="btn btn-outline-success" value="outline success">
+              </div>
+
+              <div class="col form-group">
+                <input type="submit" class="btn btn-outline-danger" value="outline danger">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <a href="#" class="btn" role="button"><img src="./img/Penguins.jpg" style="height:200px;"></a>
+        </div>
+      </div>
+
+      <div class="row m-3">
+        <div class="col-sm-12">
+          <button type="button" class="btn btn-info" data-toggle="button" aria-pressed="false">Toggle Button</button>
+          <button type="button" class="btn btn-info active" data-toggle="button" aria-pressed="true">Toggle Button Active</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 m-3">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-primary">Middle</button>
+            <button type="button" class="btn btn-primary">Right</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- プログレスバーとバッヂ -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>▼Progress Bar & Badge <span class="badge badge-success">new!</span></h2>
+        </div>
+      </div>
+
+      <div class="row m-3">
+        <div class="col-12">
+          <div class="progress">
+            <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                60%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
