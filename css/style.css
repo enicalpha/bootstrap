@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.grid-layout div {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+}
+
+.jumbotron {
+  background-image: url(../img/2018-05-25_02_02_35_1.jpg);
+  background-size: cover;
+  background-position: center center; /* 左右は中央、上下は上から10%を起点に画像を見せる */
+  background-repeat: no-repeat;
+  height: 70vh; /* 画像の高さを調節 */
+  color: black;
+  text-shadow: 2px 2px 1px yellow;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.head-link-row {
+  background-color: lightgray;
+}
+
+.head-link {
+  display: block;
+  padding: 4px 0;
+  transition: all 0.5s;
+  color: #333333;
+}
+
+.head-link:hover {
+  background-color: gray;
+  color: white;
+}
+
+.label-width-control {
+  width: 200px;
+}
+
+.btn {
+  transition: all 0.5s;
+}
