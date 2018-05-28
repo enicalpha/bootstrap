@@ -54,3 +54,7 @@ a:hover {
 .list-group-item {
   text-align: center;
 }
+
+.c-300 {
+  width: 300px;
+}
