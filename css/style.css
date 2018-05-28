@@ -44,9 +44,13 @@ a:hover {
 }
 
 .label-width-control {
-  width: 200px;
+  width: 150px;
 }
 
 .btn {
   transition: all 0.5s;
+}
+
+.list-group-item {
+  text-align: center;
 }
