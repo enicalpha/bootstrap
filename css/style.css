@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 a {
@@ -15,7 +15,7 @@ a:hover {
   border: 1px solid lightgray;
 }
 
-.jumbotron {
+.jumbotron-index {
   background-image: url(../img/2018-05-25_02_02_35_1.jpg);
   background-size: cover;
   background-position: center center; /* 左右は中央、上下は上から10%を起点に画像を見せる */
@@ -51,10 +51,14 @@ a:hover {
   transition: all 0.5s;
 }
 
-.list-group-item {
+.list-group-item-center {
   text-align: center;
 }
 
 .c-300 {
   width: 300px;
+}
+
+.inv {
+  display: none;
 }
