@@ -1,5 +1,6 @@
 body {
   /*font-family: 'Roboto', sans-serif;*/
+  padding-top: 40px;
 }
 
 a {
@@ -22,6 +23,7 @@ a:hover {
   background-repeat: no-repeat;
   height: 70vh; /* 画像の高さを調節 */
   color: black;
+  border-radius: 0px;
   text-shadow: 2px 2px 1px yellow;
   text-align: center;
   margin-bottom: 0;
@@ -61,4 +63,20 @@ a:hover {
 
 .inv {
   display: none;
+}
+
+.nav-css {
+  padding: 0 1rem;
+}
+.nav-css:hover {
+  background-color: gray;
+  color: white;
+}
+
+.navbar-css {
+  padding: 0 0;
+}
+
+.navbar-toggler-css:hover {
+  background-color: gray;
 }
