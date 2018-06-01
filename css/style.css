@@ -1,6 +1,7 @@
 body {
   /*font-family: 'Roboto', sans-serif;*/
   padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 a {
@@ -21,7 +22,7 @@ a:hover {
   background-size: cover;
   background-position: center center; /* 左右は中央、上下は上から10%を起点に画像を見せる */
   background-repeat: no-repeat;
-  height: 70vh; /* 画像の高さを調節 */
+  height: 70vh; /* 文字部分だけでは高さがたりないので画像の高さ上げて調節 */
   color: black;
   border-radius: 0px;
   text-shadow: 2px 2px 1px yellow;
@@ -79,4 +80,15 @@ a:hover {
 
 .navbar-toggler-css:hover {
   background-color: gray;
+}
+
+.scrollspy-frame {
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+
+.no-radius .nav-pills .nav-link {
+  border-radius: 0;
+  border: 0.1px solid white;
 }
