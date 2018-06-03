@@ -66,12 +66,15 @@ a:hover {
   display: none;
 }
 
-.nav-css {
-  padding: 0 1rem;
-}
 .nav-css:hover {
   background-color: gray;
   color: white;
+}
+
+.today {
+  cursor: default;
+  background-color: gray;
+  color: #f8f9fa;
 }
 
 .navbar-css {
